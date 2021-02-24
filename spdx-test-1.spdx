@@ -1,0 +1,38 @@
+##Document Header
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: TEST DOC
+DocumentNamespace: http://www.ionchannel.io/foo
+Creator: Person: SBOM Export
+Creator: Organization: IonTest
+Creator: Tool: SBOMExport
+Created: 2020-11-12T04:19:05Z
+CreatorComment: <text> Test doc </text>
+
+PackageName: ion-tester
+SPDXID: SPDXRef-ion-tester
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/application.ionchannel.io/ion-tester@test01
+PackageVersion: test01
+PackageSupplier: Organization: IonTest
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ion-tester
+Relationship: SPDXRef-ion-tester CONTAINS NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: False
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##Packages
+PackageName: Jet Database Engine
+SPDXID: SPDXRef-Jet-Database-Engine-4.0-SP3
+ExternalRef: PACKAGE-MANAGER purl pkg:supplier/www.microsoft.com/jet-database-engine@4.0-SP3
+PackageVersion: 4.0 SP3
+PackageSupplier: Organization: Microsoft
+Relationship: SPDXRef-ion-tester CONTAINS SPDXRef-Jet-Database-Engine-4.0-SP3
+Relationship: SPDXRef-Jet-Database-Engine-4.0-SP3 CONTAINS NOASSERTION
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: False
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
