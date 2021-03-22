@@ -1,4 +1,4 @@
-# github.com/spdx/tools-golang v0.0.0-20201122192914-a16d50ee1552
+# github.com/spdx/tools-golang v0.0.0-20201122192914-a16d50ee1552 => github.com/swinslow/tools-golang v0.0.0-20210320211631-6234aa66fed0
 ## explicit
 github.com/spdx/tools-golang/spdx
 github.com/spdx/tools-golang/spdxlib
@@ -6,3 +6,4 @@ github.com/spdx/tools-golang/tvloader
 github.com/spdx/tools-golang/tvloader/parser2v1
 github.com/spdx/tools-golang/tvloader/parser2v2
 github.com/spdx/tools-golang/tvloader/reader
+# github.com/spdx/tools-golang => github.com/swinslow/tools-golang v0.0.0-20210320211631-6234aa66fed0
